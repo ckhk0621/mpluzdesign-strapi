@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/wmsls",
+      "handler": "wmsl.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/wmsls/count",
+      "handler": "wmsl.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/wmsls/:id",
+      "handler": "wmsl.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/wmsls",
+      "handler": "wmsl.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/wmsls/:id",
+      "handler": "wmsl.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/wmsls/:id",
+      "handler": "wmsl.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
