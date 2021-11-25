@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pass-references",
+      "handler": "pass-reference.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pass-references/count",
+      "handler": "pass-reference.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pass-references/:id",
+      "handler": "pass-reference.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pass-references",
+      "handler": "pass-reference.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pass-references/:id",
+      "handler": "pass-reference.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pass-references/:id",
+      "handler": "pass-reference.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
