@@ -601,6 +601,9 @@
           "type": {
             "type": "string"
           },
+          "enTitle": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -616,6 +619,9 @@
             "type": "string"
           },
           "type": {
+            "type": "string"
+          },
+          "enTitle": {
             "type": "string"
           },
           "published_at": {
